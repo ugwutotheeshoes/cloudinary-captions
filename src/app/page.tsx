@@ -1,12 +1,12 @@
 "use client"
 
-import Hompage from "@/components/Hompage";
+import Homepage from "@/components/Homepage";
 
 export default function Home() {
 
   return (
     <main className='min-h-screen flex-col items-center justify-between p-10'>
-      <Hompage />
+      <Homepage />
     </main>
   );
 }

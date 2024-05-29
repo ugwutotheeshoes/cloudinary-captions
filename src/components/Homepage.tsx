@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from './Home.module.css';
 
-export default function Hompage() {
+export default function Homepage() {
     const [file, setFile] = useState<File | null>(null);
     const [url, setUrl] = useState<string>("");
     const [isLoading, setIsLoading] = useState<Boolean>(false);
